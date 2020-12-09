@@ -11,7 +11,7 @@ const Landing = () => {
             setList(res.data)
         })
         .catch(err => console.log(err))
-    }, [list])
+    }, [])
 
     const mappedList = list.map( movie => {
         return <div>
